@@ -182,6 +182,29 @@ button.categoria.orange,
 button.small.orange{
     background: #ff7f50;
 }
+
+/* FRA sidebar */
+.wrap-content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.widget{
+    padding: 1rem 2rem;
+}
+
+@media (min-width: 700px){
+    .wrap-content{
+        grid-template-columns: 3fr 1fr;
+    }
+
+}
+.sidebar{
+    border-left: 1px solid #888888;
+}
+
+
+
 /*
  *   Struttura a 3 colonne
  */
@@ -796,5 +819,3 @@ hr.our_presentation{
 /* end menu animation */
 
       
- 
-     
